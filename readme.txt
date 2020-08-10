@@ -5,6 +5,9 @@ NOTICE!!
 4) It is also imperitive that you have the ffmpeg.exe file also in this same very folder. (I've also placed ffplay.exe and ffprobe.exe in there since they all came with the package.)
 5) Within Part 5, I've created a substring to just get the filename. This is important and you'll have to calculate the substring of whatever your directory is, so do change the hardcoded 33 unless your username is also 5 characters.
 
+The youtube-dl conf that I have:
+--merge-output-format mp4 -o 'C:\Users\<ENTER_YOUR_NAME_HERE>\Videos\youtube-dl\%(uploader)s%(title)s.%(ext)s'
+
 So this is how y.bat works
 You enter command y (I'm lazy to fully type it out lol.)
 Paste the URL in
